@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Datasets (Ignore raw and processed data, keep structure with .gitkeep if needed)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+*.zip
+*.tar.gz
+*.rar
+
+# Models and Weights
+*.pt
+*.pth
+*.onnx
+*.engine
+models/weights/**
+!models/weights/.gitkeep
+
+# Training Logs and Artifacts
+runs/
+wandb/
+.agent-tasks/
+docs/
+
+# Generated Reports
+reports/**
+!reports/.gitkeep
+!reports/README.md
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+opencode_session.txt
