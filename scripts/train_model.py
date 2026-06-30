@@ -189,6 +189,14 @@ def train_model() -> bool:
         model = YOLO(MODEL_NAME)
         print("[INFO] Loaded YOLOv8s with COCO-pretrained weights")
 
+        # Class weights (inverse frequency, normalized)
+        # Calculated from train+val counts: mask=1419, no_mask=2768, etc.
+        cls_pw = [0.5, 2.15, 4.98, 2.82, 2.50, 7.54, 3.87, 3.44, 2.35, 7.57]
+
+        # Normalize so mean = 1.0
+        mean_weight = sum(cls_pw) / len(cls_pw)
+        cls_pw = [w / mean_weight for w in cls_pw]
+
         # Train on unified dataset
         results = model.train(
             data=str(DATA_YAML),
@@ -209,7 +217,7 @@ def train_model() -> bool:
             # cls=CLS_LOSS_GAIN,
             # dfl=DFL_LOSS_GAIN,
             # close_mosaic=CLOSE_MOSAIC,
-            # rect=False,
+            cls_pw=cls_pw,  # ADD CLASS WEIGHTS
             val=True,
             plots=True,
         )

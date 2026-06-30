@@ -1,0 +1,39 @@
+batch: 16
+cls_pw:
+- 0.1325556733828208
+- 0.5699893955461294
+- 1.3202545068928953
+- 0.7476139978791092
+- 0.662778366914104
+- 1.9989395546129376
+- 1.025980911983033
+- 0.911983032873807
+- 0.6230116648992577
+- 2.006892895015907
+epochs: 100
+fraction: 0.8
+lr0: 0.005
+mAP50_95_achieved: !!python/object/apply:numpy._core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  3bvcp9l82j8=
+mAP50_achieved: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  3N0uE0CP5j8=
+model: yolov8m.pt
+optimizer: SGD
+workers: 2

@@ -35,6 +35,7 @@ pip-delete-this-directory.txt
 data/raw/**
 !data/raw/.gitkeep
 data/processed/**
+data/experiments/**
 !data/processed/.gitkeep
 *.zip
 *.tar.gz

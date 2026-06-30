@@ -1,0 +1,211 @@
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    /aLDxFR72T8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    r+rDuU2FzD8=
+  model: yolov8n.pt
+  optimizer: SGD
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    l7m1vmGk4T8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AOyKt2ME1D8=
+  model: yolov8n.pt
+  optimizer: AdamW
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    m8wmfrEC4T8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    CbgqAn/h0z8=
+  model: yolov8n.pt
+  optimizer: SGD
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    GrQ2Yoj63j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    juI5gIER0T8=
+  model: yolov8n.pt
+  optimizer: AdamW
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    mxUNZk+94T8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    JWR4AVq01D8=
+  model: yolov8n.pt
+  optimizer: SGD
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    9qulcwsi2j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    OB20ftiEyj8=
+  model: yolov8n.pt
+  optimizer: AdamW
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    3FSXZqVZ4j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    kYG10aHE1T8=
+  model: yolov8s.pt
+  optimizer: SGD
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    0CkiEGVc5D8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    CYrD7UuG1z8=
+  model: yolov8s.pt
+  optimizer: AdamW
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ZuU3JCEm4z8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    f4+hSoHW1j8=
+  model: yolov8s.pt
+  optimizer: SGD
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    TjEha/7s3z8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    FC2zYnZ10j8=
+  model: yolov8s.pt
+  optimizer: AdamW
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    XTvoqsuh5D8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    mAxQ5WkR2T8=
+  model: yolov8s.pt
+  optimizer: SGD
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    dTHMe9Ah2j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    mAvgyXE2zD8=
+  model: yolov8s.pt
+  optimizer: AdamW
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    wg0kILF55D8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    DOZD27yq2D8=
+  model: yolov8m.pt
+  optimizer: SGD
+- lr0: 0.001
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    8RMh0zEv5D8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ZJL2CFPR1z8=
+  model: yolov8m.pt
+  optimizer: AdamW
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    3N0uE0CP5j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    3bvcp9l82j8=
+  model: yolov8m.pt
+  optimizer: SGD
+- lr0: 0.005
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    y4lrT6213z8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    tohLH0Zc0T8=
+  model: yolov8m.pt
+  optimizer: AdamW
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    xzkgkkRW5j8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    1gO9Ruic2j8=
+  model: yolov8m.pt
+  optimizer: SGD
+- lr0: 0.01
+  mAP50: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    LH8mdguX0z8=
+  mAP50_95: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    SnbtqTKCxD8=
+  model: yolov8m.pt
+  optimizer: AdamW
