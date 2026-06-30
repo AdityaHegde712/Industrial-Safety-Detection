@@ -29,14 +29,14 @@ SimaAI Industry Safety is a deep learning system that detects Personal Protectiv
 
 ## Performance
 
-| Metric | Value | Target |
-|--------|-------|--------|
-| **mAP@0.5** | 0.844 | >= 0.90 |
-| mAP@0.5:0.95 | 0.584 | -- |
-| Precision | 0.906 | -- |
-| Recall | 0.780 | -- |
+| Metric | Value |
+|--------|-------|
+| **mAP@0.5** | 0.844 |
+| mAP@0.5:0.95 | 0.584 |
+| Precision | 0.906 |
+| Recall | 0.780 |
 
-*YOLOv8s trained for 100 epochs on unified dataset (3,983 images, 10 classes)*
+*YOLOv8s trained for 300 epochs on unified dataset (3,983 images, 10 classes)*
 
 ### Per-Class Results
 
@@ -134,7 +134,7 @@ This project is designed for deployment on the **SiMa.ai Modalix MLSoC**, a purp
 
 - Python 3.10 or higher
 - CUDA-capable GPU (recommended for training)
-- 8GB+ GPU VRAM for training
+- 8GB+ GPU VRAM (for training)
 
 ### Installation
 
@@ -294,7 +294,7 @@ To address class imbalance, inverse-frequency weights are applied:
 
 ---
 
-## Roadmap
+<!-- ## Roadmap
 
 ### Completed
 
@@ -318,7 +318,7 @@ To address class imbalance, inverse-frequency weights are applied:
 - [ ] INT8 quantization for edge optimization
 - [ ] Zone-based safety rule enforcement
 - [ ] Docker containerization for deployment
-- [ ] REST API for inference requests
+- [ ] REST API for inference requests -->
 
 ---
 
@@ -356,12 +356,6 @@ python resource_monitor.py
 
 ---
 
-## License
-
-This project is licensed under the MIT License -- see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 
 - [Ultralytics](https://ultralytics.com/) -- YOLOv8 framework
@@ -369,16 +363,5 @@ This project is licensed under the MIT License -- see the [LICENSE](LICENSE) fil
 - [Weights & Biases](https://wandb.ai/) -- Experiment tracking
 - Kaggle Construction Site Safety Dataset
 - Roboflow Construction Safety Dataset
-
----
-
-## Contact
-
-**SimaAI Industry Safety Team**
-
-- Project Repository: [GitHub](https://github.com/your-org/SimaAI_Industry_Safety)
-- Issues: [GitHub Issues](https://github.com/your-org/SimaAI_Industry_Safety/issues)
-
----
 
 *Last Updated: June 2026*
